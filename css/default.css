@@ -3639,10 +3639,14 @@ html, body {
   background-image: url("../images/cloz.png");
 }
 
+.bigContainer .container .page .content {
+  margin-top: 50px;
+}
 .bigContainer .container .page.p1 {
   background-image: url("../images/bg1.jpg");
 }
 .bigContainer .container .page.p1 .content {
+  margin-top: 0;
   margin-bottom: 300px;
 }
 .bigContainer .container .page.p6 .calendarBtn {
@@ -3651,7 +3655,6 @@ html, body {
   height: 230px;
   top: 330px;
   left: 280px;
-  border: 1px solid #000;
 }
 .bigContainer .container .page.p6 .joinBtn {
   position: absolute;
@@ -3659,7 +3662,6 @@ html, body {
   height: 230px;
   top: 330px;
   left: 0;
-  border: 1px solid red;
 }
 
 .padShow {
